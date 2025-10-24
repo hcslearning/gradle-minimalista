@@ -1,0 +1,28 @@
+= README
+
+== Proyecto minimalista
+
+* No utiliza _Version Catalog_ (archivo TOML)
+* No tiene _Subproyectos_
+* No usa _Gradle Wrapper_
+
+== Estructura
+
+[source]
+----
+.
+├── build.gradle.kts
+└── src
+    ├── main
+    │   ├── java
+    │   │   └── org
+    │   │       └── example
+    │   │           └── App.java
+    │   └── resources
+    └── test
+        ├── java
+        │   └── org
+        │       └── example
+        │           └── AppTest.java
+        └── resources
+----

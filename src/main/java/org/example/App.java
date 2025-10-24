@@ -3,10 +3,12 @@
  */
 package org.example;
 
+import org.apache.commons.lang3.StringUtils;
+
 public class App {
 
     public String getGreeting() {
-        return "Hola Mundo!!!";
+        return StringUtils.capitalize("hola mundo");
     }
 
     public static void main(String[] args) {
